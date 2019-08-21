@@ -1,5 +1,4 @@
 # Your code here
-def meal_choice (veg1, veg2, protein = 'meat')
-  puts "Whata nutritious meal!"
-  puts "A plate of #{protein} with #{veg1} and #{veg2}."
-end
+describe '#meal_choice' do
+  it 'should default to meat for the protein' do
+    expect(meal_choice("broccoli", "macaroni")).to eq("A plate of meat with broccoli and macaroni.")
