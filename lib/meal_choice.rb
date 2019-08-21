@@ -1,10 +1,4 @@
 # Your code here
 describe '#meal_choice' do
-  it 'should default to meat' do
-    expect(meal_choice).to eq("meat")
-  end
-
-  it 'should allow you to set a meal' do
-    expect(meal_choice("vegan")).to eq("vegan")
-  end
-end
+  it 'should default to meat for the protein' do
+    expect(meal_choice("broccoli", "macaroni")).to eq("A plate of meat with broccoli and macaroni.")
