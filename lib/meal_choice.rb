@@ -1,2 +1,2 @@
 # Your code here
-puts ""
+def meal_choice
